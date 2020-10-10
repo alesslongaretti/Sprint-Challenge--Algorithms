@@ -14,6 +14,3 @@ def count_th(word):
     else:
     # else recurse and keep checking for more "th"
         return count_th(word[1:])
-    
-    
-
